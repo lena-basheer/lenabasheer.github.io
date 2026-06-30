@@ -1,4 +1,14 @@
-/* ============ TOKENS ============ */
+/* ===== Profile Photo ===== */
+.profile-photo{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #E8A33D;
+    display:block;
+    margin:0 auto 25px auto;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+}/* ============ TOKENS ============ */
 :root{
   --navy:#0B1F3A;
   --navy-2:#10294D;
