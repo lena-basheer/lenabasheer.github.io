@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lena B — Data Analyst | Python, SQL & Power BI</title>
+<meta name="description" content="Lena B is a Data Analyst skilled in Python, SQL, Power BI and Excel, building KPI dashboards and data-driven tools. View projects, skills and contact details.">
+<meta name="keywords" content="Lena B, Data Analyst, Power BI, Python, SQL, Excel, Dashboard, Portfolio">
+<meta name="author" content="Lena B">
+<meta property="og:title" content="Lena B — Data Analyst">
+<meta property="og:description" content="Data Analyst skilled in Python, SQL, Power BI and Excel. Explore dashboards and data projects.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="logo" aria-label="Lena B home">LENA<span>_B</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle dark and light mode" title="Toggle theme">
+        <svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot"></span> Available for Data Analyst roles</p>
+      <h1>Lena B</h1>
+      <p class="role">Data Analyst — Python · SQL · Power BI</p>
+      <p class="tagline">I turn messy, structured datasets into dashboards and decisions — building the kind of reporting tools teams actually open every morning.</p>
+      <div class="cta-row">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="assets/Lena-B-Resume.pdf" class="btn btn-ghost" download>Download Résumé</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/lena-basheer" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="https://linkedin.com/in/lenabasheer-dataanalyst" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+        <a href="mailto:lenabasheer.in@gmail.com" aria-label="Email">Email</a>
+      </div>
+    </div>
+
+    <div class="hero-panel" aria-hidden="true">
+      <div class="panel-head">
+        <span class="panel-dot red"></span><span class="panel-dot yellow"></span><span class="panel-dot green"></span>
+        <span class="panel-title">query_dashboard.sql</span>
+      </div>
+      <pre class="panel-code"><code><span class="kw">SELECT</span> name, role, stack
+<span class="kw">FROM</span> lena.profile
+<span class="kw">WHERE</span> focus = <span class="str">'data_analysis'</span>;
+
+<span class="cmt">-- live stats</span></code></pre>
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <span class="kpi-num" data-count="3">0</span>
+          <span class="kpi-label">Dashboards &amp; Apps Built</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-num" data-count="4">0</span>
+          <span class="kpi-label">Certifications</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-num" data-count="87">0</span>
+          <span class="kpi-label">GPA Score</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll to About"><span></span></a>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <p class="section-label">01 / About</p>
+    <h2>Curious about the "why" behind every number</h2>
+    <p class="lead">
+      I'm a final-year Computer Science student and aspiring Data Analyst from the Nilgiris, Tamil Nadu.
+      My work sits at the intersection of clean data and clear decisions: I clean and model datasets in
+      Python and SQL, then design Power BI dashboards that surface the trends that actually matter to a
+      business — revenue drivers, workforce patterns, and scheduling conflicts.
+    </p>
+    <p class="lead">
+      Outside of dashboards, I built a full desktop application — a constraint-based timetable generator —
+      because I wanted to see a data problem through end-to-end, from raw scheduling data to a usable export.
+      That instinct to "ship the whole pipeline" is what I bring to every analyst role.
+    </p>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="section alt" id="skills">
+  <div class="section-inner">
+    <p class="section-label">02 / Skills</p>
+    <h2>Toolkit</h2>
+
+    <div class="skills-grid">
+      <div class="skill-block">
+        <h3>Languages</h3>
+        <div class="skill-bar"><span class="skill-name">Python</span><div class="bar"><i style="--w:90%"></i></div></div>
+        <div class="skill-bar"><span class="skill-name">SQL</span><div class="bar"><i style="--w:85%"></i></div></div>
+        <div class="skill-bar"><span class="skill-name">JavaScript</span><div class="bar"><i style="--w:65%"></i></div></div>
+      </div>
+
+      <div class="skill-block">
+        <h3>Frameworks &amp; Libraries</h3>
+        <div class="skill-bar"><span class="skill-name">Pandas / NumPy</span><div class="bar"><i style="--w:88%"></i></div></div>
+        <div class="skill-bar"><span class="skill-name">Matplotlib</span><div class="bar"><i style="--w:80%"></i></div></div>
+        <div class="skill-bar"><span class="skill-name">React.js / Node.js</span><div class="bar"><i style="--w:70%"></i></div></div>
+      </div>
+
+      <div class="skill-block">
+        <h3>Tools</h3>
+        <div class="skill-bar"><span class="skill-name">Power BI (DAX)</span><div class="bar"><i style="--w:88%"></i></div></div>
+        <div class="skill-bar"><span class="skill-name">Excel (Pivot, VLOOKUP)</span><div class="bar"><i style="--w:85%"></i></div></div>
+        <div class="skill-bar"><span class="skill-name">SQLite / Git</span><div class="bar"><i style="--w:75%"></i></div></div>
+      </div>
+
+      <div class="skill-block">
+        <h3>Soft Skills</h3>
+        <ul class="soft-list">
+          <li>Analytical problem solving</li>
+          <li>Cross-functional communication</li>
+          <li>Attention to data integrity</li>
+          <li>Self-directed learning</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section" id="projects">
+  <div class="section-inner">
+    <p class="section-label">03 / Projects</p>
+    <h2>Things I've shipped</h2>
+
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="project-top">
+          <h3>Advanced Timetable Generator</h3>
+          <span class="project-tag">Desktop App</span>
+        </div>
+        <p class="project-problem"><strong>Problem:</strong> Manual academic scheduling causes faculty/subject conflicts and wastes hours each term.</p>
+        <p class="project-detail">Built a constraint-based engine that generates conflict-free timetables from structured subject, faculty, and room data — then exports results to PDF and Excel for instant distribution.</p>
+        <ul class="project-points">
+          <li>Modeled scheduling constraints across faculty, subjects, and rooms</li>
+          <li>Reduced manual timetable creation effort significantly</li>
+          <li>Shipped one-click export to PDF and Excel</li>
+        </ul>
+        <div class="tech-row">
+          <span>Electron.js</span><span>React.js</span><span>Node.js</span><span>SQLite</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/lena-basheer" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <h3>Financial Performance Dashboard</h3>
+          <span class="project-tag">Power BI</span>
+        </div>
+        <p class="project-problem"><strong>Problem:</strong> Leadership lacked a single view of revenue, expense, and profit trends across periods and departments.</p>
+        <p class="project-detail">Designed DAX measures and an interactive KPI dashboard to monitor financial health and surface which departments and periods drove profit.</p>
+        <ul class="project-points">
+          <li>Built custom DAX measures for revenue, expense and profit tracking</li>
+          <li>Identified top profit-driving departments</li>
+          <li>Flagged peak revenue periods for planning</li>
+        </ul>
+        <div class="tech-row">
+          <span>Power BI</span><span>DAX</span><span>Data Modeling</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/lena-basheer" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <h3>HR Analytics Dashboard</h3>
+          <span class="project-tag">Power BI</span>
+        </div>
+        <p class="project-problem"><strong>Problem:</strong> HR needed visibility into workforce distribution to support staffing decisions.</p>
+        <p class="project-detail">Built an interactive, filterable dashboard analyzing employee data across departments to highlight workforce trends.</p>
+        <ul class="project-points">
+          <li>Modeled employee dataset across departments and roles</li>
+          <li>Added interactive filters for self-serve exploration</li>
+          <li>Surfaced workforce trends for HR decision-making</li>
+        </ul>
+        <div class="tech-row">
+          <span>Power BI</span><span>Data Cleaning</span><span>Dashboard UX</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/lena-basheer" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section class="section alt" id="experience">
+  <div class="section-inner">
+    <p class="section-label">04 / Experience</p>
+    <h2>Applied learning &amp; simulations</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="timeline-dot"></span>
+        <div>
+          <h3>GenAI Data Analytics Simulation — Forage (Tata Group)</h3>
+          <p>Completed a job-simulation program applying generative AI tools to real-world analytics tasks, including data interpretation and stakeholder-ready reporting.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-dot"></span>
+        <div>
+          <h3>Data Science &amp; Analytics Simulation — HP</h3>
+          <p>Practiced end-to-end analytics workflows, from data exploration to presenting findings in a business context.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-dot"></span>
+        <div>
+          <h3>Independent Projects</h3>
+          <p>Self-directed build of three production-style tools (above) to practice the full analyst workflow — data cleaning, modeling, visualization and delivery.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section class="section" id="education">
+  <div class="section-inner">
+    <p class="section-label">05 / Education</p>
+    <h2>Education &amp; Certifications</h2>
+
+    <div class="edu-cert-grid">
+      <div class="edu-card">
+        <h3>BSc Computer Science</h3>
+        <p class="edu-sub">Nilgiri College of Arts and Science (Autonomous)</p>
+        <p class="edu-meta">GPA: 87 / 100 &nbsp;·&nbsp; Expected 2026</p>
+      </div>
+
+      <div class="cert-list">
+        <div class="cert-item"><span class="cert-mark">✓</span> Data Analysis with Python — IBM</div>
+        <div class="cert-item"><span class="cert-mark">✓</span> Python for Data Science — NPTEL</div>
+        <div class="cert-item"><span class="cert-mark">✓</span> Data Science &amp; Analytics Simulation — HP</div>
+        <div class="cert-item"><span class="cert-mark">✓</span> GenAI Data Analytics Simulation — Forage (Tata Group)</div>
+      </div>
+    </div>
+
+    <div class="languages-row">
+      <span>English</span><span>Tamil</span><span>Malayalam</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section alt" id="contact">
+  <div class="section-inner">
+    <p class="section-label">06 / Contact</p>
+    <h2>Let's talk data</h2>
+    <p class="lead">Open to entry-level Data Analyst roles and internships. Reach out — I usually reply within a day.</p>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <a href="mailto:lenabasheer.in@gmail.com" class="contact-row">
+          <span class="contact-label">Email</span><span>lenabasheer.in@gmail.com</span>
+        </a>
+        <a href="tel:+919342407263" class="contact-row">
+          <span class="contact-label">Phone</span><span>+91 93424 07263</span>
+        </a>
+        <a href="https://linkedin.com/in/lenabasheer-dataanalyst" target="_blank" rel="noopener" class="contact-row">
+          <span class="contact-label">LinkedIn</span><span>linkedin.com/in/lenabasheer-dataanalyst</span>
+        </a>
+        <a href="https://github.com/lena-basheer" target="_blank" rel="noopener" class="contact-row">
+          <span class="contact-label">GitHub</span><span>github.com/lena-basheer</span>
+        </a>
+        <div class="contact-row"><span class="contact-label">Location</span><span>Gudalur, The Nilgiris, Tamil Nadu</span></div>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn btn-primary full">Send Message</button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Lena B. Built with care, fueled by clean data.</p>
+</footer>
+
+<button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
