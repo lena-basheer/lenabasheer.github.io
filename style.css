@@ -1,8 +1,7 @@
 .profile-photo{
-    width:180px !important;
-    height:180px !important;
-    max-width:180px !important;
-    max-height:180px !important;
+    width:180px;
+    height:180px;
+    aspect-ratio:1/1;
     object-fit:cover;
     border-radius:50%;
     border:4px solid #E8A33D;
@@ -10,7 +9,11 @@
     margin:0 auto 25px;
     box-shadow:0 8px 20px rgba(0,0,0,.3);
 }
-}/* ============ TOKENS ============ */
+@media (max-width:480px){
+  .profile-photo{ width:130px; height:130px; }
+}
+
+/* ============ TOKENS ============ */
 :root{
   --navy:#0B1F3A;
   --navy-2:#10294D;
